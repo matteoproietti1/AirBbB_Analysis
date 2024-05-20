@@ -5,8 +5,14 @@
 The aim of this project is to conduct an exploratory data analysis (EDA) on the Airbnb dataset for Milan, Italy. By analyzing various aspects of the dataset, including pricing, availability, and neighborhood trends, we seek to gain insights into the Milan Airbnb market and understand the factors that influence pricing and demand.
 
 ### Data Sources
-The main data source is the [official Airbnb database](https://insideairbnb.com/get-the-data/), which is constantly updated every quarter of the year. The latest update for the database used in this EDA is March 22, 2024. 
-The original .csv file is "milan_raw.csv", while the cleansed dataset used for the analysis is "milan.csv".
+The primary dataset used for the analysis is "milan.csv", which is the cleansed dataset. The original .csv file is "milan_raw.csv".
+The main data source is the [official Airbnb database](https://insideairbnb.com/get-the-data/), which is constantly updated every quarter of the year. The latest update for the database used in this EDA is March 22, 2024. The cleansed dataset, SQL and R scripts for data processing and analysis are available in this repository for further exploration and utilization. 
+
+During the cleaning and preparation phase, following tasks were performed:
+1) Creation of a Staging table to preserve the original data
+2) Identification and removal of duplicates and outliers
+3) Standardization of Data (formatting)
+4) Handling missing and null values to avoid imprecise analysis
 
 ### Tools
 - Excel - Initial data cleansing, addressing formatting inconsistencies and improvment of data quality
@@ -15,7 +21,7 @@ The original .csv file is "milan_raw.csv", while the cleansed dataset used for t
 - Tableau - Data Visualization
 - R - Correlation and quick visualization
 
-### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA) - Questions and findings
 1) What is the most common room type in each neighbourhood?
 <details>
   <summary>See the findings</summary>
