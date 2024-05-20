@@ -13,6 +13,7 @@ The original .csv file is "milan_raw.csv", while the cleansed dataset used for t
 - MySQL Workbench - Data Cleaning
 - MySQL Workbench - Data Analysis
 - Tableau - Data Visualization
+- R - Correlation and quick visualization
 
 ### Exploratory Data Analysis (EDA)
 1) What is the most common room type in each neighbourhood?
