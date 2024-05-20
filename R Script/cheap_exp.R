@@ -1,7 +1,8 @@
-# Define color gradient from green to red
+# Visualization for the bar chart
+# 1) Defining a color gradient from green to red
 color_palette <- colorRampPalette(c("green", "red"))
 
-# Bar chart comparing average prices
+# 2) Creating a Bar chart comparing average prices
 ggplot(milan_combined, aes(x = reorder(neighbourhood, average_price), y = average_price, fill = average_price)) +
   geom_bar(stat = "identity", position = "dodge") +
   scale_fill_gradient(low = "green", high = "red") +
