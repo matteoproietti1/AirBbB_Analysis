@@ -38,17 +38,35 @@ The analysis  reveals that the most common room type in the majority of neighbor
 <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/b0183eb6-dc59-493c-b894-6723a2d65386" alt="CheapExp" width="480">
 
   Also the number of listing is very different: few for the lowest, more for the highest.
-| Neighbourhood      | Average price | Listing count |
-|--------------------|---------------|---------------|
-| Parco delle abbazie| 81            | 11            |
-| Adriano            | 70            | 69            |
-| Bruzzano           | 69            | 41            |
 
-| Neighbourhood      | Average price | Listing count |
-|--------------------|---------------|---------------|
-| Ex om - morivione  | 507           | 115           |
-| Umbria - molise    | 412           | 321           |
-| Lambrate           | 291           | 113           |
+--*Milan*--
+
+| Neighbourhood      | Average price | Listing count  |
+|--------------------|---------------|----------------|
+| Parco bosco        | 63            | 8              |
+| Bruzzano           | 69            | 41             |
+| Adriano            | 70            | 69             |
+
+| Neighbourhood      | Average price | Listing count  |
+|--------------------|---------------|----------------|
+| Ex om - morivione  | 507           | 115            |
+| Umbria - molise    | 412           | 321            |
+| Cantalupa          | 373           | 4              |
+
+--*Rome*--
+
+| Neighbourhood      | Average Price | Listing Count  |
+|--------------------|---------------|----------------|
+| V Prenestino/Cento | 101           | 1319           |
+| VI Roma DT         | 110           | 268            |
+| XIV Monte Mario    | 120           | 654            |
+
+| Neighbourhood      | Average Price | Listing Count  |
+|--------------------|---------------|----------------|
+| I Centro Storico   | 225           | 15861          |
+| X Ostia/Acilia     | 217           | 818            |
+| IV Tiburtina       | 167           | 560            |
+
 
 </details>
 
