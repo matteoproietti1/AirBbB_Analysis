@@ -7,6 +7,7 @@ The aim of this project is to conduct an exploratory data analysis (EDA) on the 
 ### Data Sources
 The primary dataset used for the analysis is "milan.csv", which is the cleansed dataset. The original .csv file is "milan_raw.csv".
 The main data source is the [official Airbnb database](https://insideairbnb.com/get-the-data/), which is constantly updated every quarter of the year. The latest update for the database used in this EDA is March 22, 2024. The cleansed dataset, SQL and R scripts for data processing and analysis are available in this repository for further exploration and utilization. 
+For the comparison at Question 2), the dataset "rome.csv" was recovered and cleansed in the same way as before.
 
 During the cleaning and preparation phase, following tasks were performed:
 1) Creation of a Staging table to preserve the original data
@@ -28,9 +29,11 @@ During the cleaning and preparation phase, following tasks were performed:
 The analysis  reveals that the most common room type in the majority of neighborhoods is "Entire home/apt." This room type consistently appears as the dominant listing across various areas. By evaluating the count of listings per room type within each neighborhood, we observe that it has a significantly higher number of listings compared to other room types such as "Private room" or "Shared room."
 </details>
 
-2) What are the prices in the cheapest and most expensive neighborhoods in Milan, and how do they compare?
+2) Is there a significative difference between the average prices of the two most populated cities in Italy? 
 <details>
     <summary>See the findings</summary>
+  First step, we find the top 3 cheapest and top 3 most expensive average neighborhood prices in Milan and compare them with those in Rome. 
+  
   As we can see, there's a very high discrepancy between the three cheapest neighbourhood and three most expensive. 
 <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/b0183eb6-dc59-493c-b894-6723a2d65386" alt="CheapExp" width="480">
 
