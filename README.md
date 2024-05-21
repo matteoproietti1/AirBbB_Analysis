@@ -73,7 +73,7 @@ Also the number of listing is very different: Milan has very few listing for the
 </details>
 
 ### Final conclusions
-From this analysis, we can find some more interest finding, summarized in the following dashboard, which the interactive version can be found on [Tableau Public].(https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview/DashboardMilan#1)
+From this analysis, we can find some more interest finding, summarized in the following dashboard, which the interactive version can be found on [Tableau Public](https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview/DashboardMilan#1).
 <details><summary>View the Dashboard</summary>
 <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/630b0bab-4c8d-4675-ba19-93414a70ea63" alt="CheapExp" width="1000">
 </details>
