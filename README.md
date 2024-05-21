@@ -3,12 +3,12 @@
 
 ## 1) Introduction
 ### Project Overview
-The aim of this project is to conduct an exploratory data analysis (EDA) on the Airbnb dataset for Milan, Italy. By analyzing various aspects of the dataset, including pricing, availability, and neighborhood trends, we seek to gain insights into the Milan Airbnb market and understand the factors that influence pricing and demand.
+The aim of this project is to conduct an exploratory data analysis (EDA) on the Airbnb dataset for the city of Milan, Italy. By analyzing various aspects of the dataset, including pricing, availability, and neighborhood trends (and comparing some of those with the city of Rome), we seek to gain insights into the Milan Airbnb market and understand the factors that influence pricing and demand.
 
 ### Data Sources
 The primary dataset used for the analysis is "milan.csv", which is the cleansed dataset. The original .csv file is "milan_raw.csv".
-The main data source is the [official Airbnb database](https://insideairbnb.com/get-the-data/), which is constantly updated every quarter of the year. The latest update for the database used in this EDA is March 22, 2024. The cleansed dataset, SQL and R scripts for data processing and analysis are available in this repository for further exploration and utilization. 
-For the comparison at Question 2), the dataset "rome.csv" was recovered and cleansed in the same way as before.
+The main data source is the [official Airbnb database](https://insideairbnb.com/get-the-data/), which is constantly updated every quarter of the year. The latest update for the database used in this EDA is March 22, 2024. The cleansed dataset, SQL and scripts for data processing and analysis are available in this repository for further exploration and utilization. 
+For the comparison at Question 2), the dataset "rome.csv" was recovered and cleansed in the same way of the previous one.
 
 ## 2) Data processing
 ### Data preparation
@@ -22,7 +22,7 @@ During the cleaning and preparation phase, following tasks were performed:
 - Excel - Initial data cleansing, addressing formatting inconsistencies and improvment of data quality
 - MySQL Workbench - Data Cleaning
 - MySQL Workbench - Data Analysis
-- Tableau - Data Visualization
+- Tableau - Data Visualization for Dashboard
 - R - Correlation and quick visualization
   
 ## 3) Data Analysis
@@ -73,7 +73,10 @@ Also the number of listing is very different: Milan has very few listing for the
 </details>
 
 ### Final conclusions
-From this analysis, we can conclude that Milan is the most expensive city in Italy, compared to Rome. That may be precisely for the lowest number of AirBnB  available in each neighbourhood, which leads to an higher price for those listings.
+From this analysis, we can find some more interest finding, summarized in the following dashboard, which the interactive version can be found on [Tableau Public].(https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview/DashboardMilan#1)
+<details><summary>View the Dashboard</summary>
+<img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/630b0bab-4c8d-4675-ba19-93414a70ea63" alt="CheapExp" width="1000">
+</details>
    
 ### Further consideration
 The data
