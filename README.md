@@ -36,10 +36,8 @@ The analysis  reveals that the most common room type in the majority of neighbor
 2) Is there a significative difference between the average prices of the two most populated cities in Italy? 
 <details>
     <summary>See the findings</summary>
-  First step, we find the top 3 cheapest and top 3 most expensive average neighborhood prices in Milan and compare them with those in Rome. 
-  
-  
-  As we can see, there's a very high discrepancy between the three most expensive neighbourhood from both cities, with Milan having the highest. Milan prices are twice as big compared to Rome.
+
+  After finding the three most expensive and cheapest neighbourhood, as we can see, there's a very high discrepancy between the two cities cities, with Milan having the highest average prices, twice as big compared to Rome. 
   
 <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/aba083e1-da27-408b-b4a1-80bc2186bdc1" alt="CheapExp" width="480">
 
@@ -47,8 +45,7 @@ Things change for the cheapest, where the average price is higher in Rome than M
 
 <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/2c168cf9-690e-40e3-9b1b-5174c80adfda" alt="CheapExp" width="480">
 
- Also the number of listing is very different.
-Milan has very few listing for the neighbourhood, both in the cheapest and most expensive. In fact, Rome has the 1st ranking for number of AirBnB italy, so that is not surprising.
+Also the number of listing is very different: Milan has very few listing for the neighbourhood, both in the cheapest and most expensive. In fact, Rome is 1st in ranking for number of AirBnB italy, so that is not surprising.
 
 --*Milan*--
 
