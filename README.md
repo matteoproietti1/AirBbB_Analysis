@@ -1,4 +1,4 @@
-# Explore the Pulse of Milan's Hospitality Scene with Airbnb Insight
+# Explore the Pulse of Milan's Hospitality Scene with AirBnB Insight
 ## From Raw Data to clean Visualization
 
 ## 1) Introduction
