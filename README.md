@@ -34,8 +34,9 @@ The analysis  reveals that the most common room type in the majority of neighbor
     <summary>See the findings</summary>
   First step, we find the top 3 cheapest and top 3 most expensive average neighborhood prices in Milan and compare them with those in Rome. 
   
-  As we can see, there's a very high discrepancy between the three cheapest neighbourhood and three most expensive. 
-<img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/b0183eb6-dc59-493c-b894-6723a2d65386" alt="CheapExp" width="480">
+  As we can see, there's a very high discrepancy between the three cheapest neighbourhood and three most expensive.
+  
+<img src="![Comparison](https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/c6e350cc-90ec-4229-b475-38f40183c3f8" alt="CheapExp" width="480">
 
   Also the number of listing is very different: few for the lowest, more for the highest.
 
