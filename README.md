@@ -83,7 +83,7 @@ For this analysis, we consider the amount of reviews by month as a value that in
 
 ### Visualization
 From this analysis, the data available allow us to gather some more interest finding, summarized in the following dashboard, which the interactive version can be found on [Tableau Public](https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview/Dashboard2). 
-Given that Milan has over 80 neighborhoods, to avoid a confusing and hard-to-read displaying, certain analyses consider only the top five neighborhoods by number of bookings.
+Given that Milan has over 80 neighborhoods, to avoid a confusing and hard-to-read displaying, certain analyses consider only the top five neighbourhoods by number of bookings.
 
 <details>
   <summary>View the Dashboard</summary>
