@@ -1,3 +1,7 @@
+-- 1) Most common room type in each neighbourhood
+
+
+
 -- 2) Average prices by neighbourhood in Milan 
 SELECT neighbourhood,
 ROUND(AVG(price)) AS average_price, 
@@ -79,7 +83,7 @@ UNION ALL
 SELECT 'Rome' AS city, 'Expensive' AS type, neighbourhood, avg_price, listing_count
 FROM rome_expensive;
 
--- 3) Favourite month to visit the city
+-- 3) Busiest month to visit the city
 SELECT 
 DATE_FORMAT(STR_TO_DATE(last_review, '%d-%m-%Y'), '%Y-%m') AS review_month,
 COUNT(*) AS review_count
