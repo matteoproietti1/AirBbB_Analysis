@@ -78,6 +78,8 @@ From this analysis, the data available allow us to gather some more interest fin
 <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/630b0bab-4c8d-4675-ba19-93414a70ea63" alt="CheapExp" width="1000">
 
 As we can see, the hosts who own the most listings are the same hosts who also own it in the most crowded neighborhood, albeit in different order.
+
+The most common type of listing is the Entire Home/Apt, which has also the highest average price.
 </details>
    
 
