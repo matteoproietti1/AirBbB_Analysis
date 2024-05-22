@@ -72,14 +72,25 @@ Also the number of listing is very different: Milan has very few listing for the
 
 </details>
 
-### Further consideration
-From this analysis, the data available allow us to gather some more interest finding, summarized in the following dashboard, which the interactive version can be found on [Tableau Public](https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview/DashboardMilan#1).
-<details><summary>View the Dashboard</summary>
-<img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/630b0bab-4c8d-4675-ba19-93414a70ea63" alt="CheapExp" width="1000">
+3) What is the favourite month of the year, by customer, to visit milan?
+<details>
+  <summary>See the findings</summary>
+For this analysis, we consider the amount of reviews by month as a value that indicates the number of people who visited the city that month.
+  With more than twice the amount of bookings number than february, march has the podium with >5000 bookings.
+ <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/82bba008-eabc-4142-be3d-c6710d5985f3" alt="Busiest Month" width="1000">
+ </details>
 
-As we can see, the hosts who own the most listings are the same hosts who also own it in the most crowded neighborhood, albeit in different order.
 
-The most common type of listing is the Entire Home/Apt, which has also the highest average price.
+### Visualization
+From this analysis, the data available allow us to gather some more interest finding, summarized in the following dashboard, which the interactive version can be found on [Tableau Public]([https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview/DashboardMilan#1](https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview/Dashboard2)). Given that Milan has over 80 neighborhoods, to avoid a confusing and hard-to-read displaying, certain analyses consider only the top five neighborhoods by number of bookings.
+
+<details>
+  <summary>View the Dashboard</summary>
+  <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/4597ed4a-06fc-4fa4-b6d3-6253b3dd58a0" alt="Milan Visualization Overview" width="1000">
+  <p>The Buenos Aires - Venezia neighborhood has the highest number of listings, with 1,475 in total. Andrea is the top host, owning 41 of these listings. The average price for an entire home in this neighborhood is 192 euros per night (25 euros more than the average price of a staying in Milan, which is 167 euro).
+  
+  </p>
 </details>
+
    
 
