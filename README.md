@@ -33,11 +33,11 @@ During the cleaning and preparation phase, following tasks were performed:
 The analysis  reveals that the most common room type in the majority of neighborhoods is "Entire home/apt." This room type consistently appears as the dominant listing across various areas. By evaluating the count of listings per room type within each neighborhood, we observe that it has a significantly higher number of listings compared to other room types such as "Private room" or "Shared room."
 </details>
 
-2) Is there a significative difference between the average prices of the two most populated cities in Italy? 
+2) Is there a significative difference between the average prices of the two most populated cities in Italy? Compare Milan and Rome.
 <details>
     <summary>See the findings</summary>
 
-  After finding the three most expensive and cheapest neighbourhood, as we can see, there's a very high discrepancy between the two cities, with Milan having the highest average prices, twice as big compared to Rome. 
+  After finding the three most expensive and cheapest neighbourhood for each city, as we can see, there's a very high discrepancy between the two, with Milan having the highest average prices, twice as big compared to Rome, making it so most expensive to visit.
   
 <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/aba083e1-da27-408b-b4a1-80bc2186bdc1" alt="CheapExp" width="600">
 
@@ -45,7 +45,7 @@ Things change for the cheapest, where the average price is higher in Rome than M
 
 <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/2c168cf9-690e-40e3-9b1b-5174c80adfda" alt="CheapExp" width="600">
 
-Also the number of listing is very different: Milan has very few listing for the neighbourhood, both in the cheapest and most expensive. In fact, Rome is 1st in ranking for number of AirBnB italy, so that is not surprising.
+Also the number of listing is very different: Milan has very few listing for the neighbourhood, both in the cheapest and most expensive. In fact, Rome is 1st in ranking for number of AirBnB italy, so that is not surprising (number of neighbourhood groups in Rome is also lower, so, for this cause, listing in each of those is higher).
 
 --*Milan*--
 
@@ -76,7 +76,7 @@ Also the number of listing is very different: Milan has very few listing for the
 <details>
   <summary>See the findings</summary>
 For this analysis, we consider the amount of reviews by month as a value that indicates the number of people who visited the city that month.
-  With more than twice the amount of bookings number than february, march has the podium with >5000 bookings.
+  With more than twice the amount of bookings number than february, march has the podium..
  <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/82bba008-eabc-4142-be3d-c6710d5985f3" alt="Busiest Month" width="1000">
  </details>
 
