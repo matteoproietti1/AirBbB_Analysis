@@ -84,12 +84,11 @@ SELECT 'Rome' AS city, 'Expensive' AS type, neighbourhood, avg_price, listing_co
 FROM rome_expensive;
 
 -- 3) Busiest month to visit the city
-SELECT 
-DATE_FORMAT(STR_TO_DATE(last_review, '%d-%m-%Y'), '%Y-%m') AS review_month,
-COUNT(*) AS review_count
+SELECT DATE_FORMAT(last_review, '%Y-%m') AS month,
+SUM(number_of_reviews) AS total_reviews
 FROM milan
-GROUP BY reeview_month
-ORDER BY review_count DESC
+GROUP BY DATE_FORMAT(last_review, '%Y-%m')
+ORDER BY month;
 
 
 
