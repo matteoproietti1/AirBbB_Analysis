@@ -72,7 +72,7 @@ Also the number of listing is very different: Milan has very few listing for the
 
 </details>
 
-3) What is the favourite month of the year, by customer, to visit milan?
+3) What is the busiest month of the year to visit milan?
 <details>
   <summary>See the findings</summary>
 For this analysis, we consider the amount of reviews by month as a value that indicates the number of people who visited the city that month.
@@ -82,7 +82,8 @@ For this analysis, we consider the amount of reviews by month as a value that in
 
 
 ### Visualization
-From this analysis, the data available allow us to gather some more interest finding, summarized in the following dashboard, which the interactive version can be found on [Tableau Public]([https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview/DashboardMilan#1](https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview/Dashboard2)). Given that Milan has over 80 neighborhoods, to avoid a confusing and hard-to-read displaying, certain analyses consider only the top five neighborhoods by number of bookings.
+From this analysis, the data available allow us to gather some more interest finding, summarized in the following dashboard, which the interactive version can be found on [Tableau Public](https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview/Dashboard2). 
+Given that Milan has over 80 neighborhoods, to avoid a confusing and hard-to-read displaying, certain analyses consider only the top five neighborhoods by number of bookings.
 
 <details>
   <summary>View the Dashboard</summary>
