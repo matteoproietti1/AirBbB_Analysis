@@ -76,8 +76,8 @@ Also the number of listing is very different: Milan has very few listing for the
 <details>
   <summary>See the findings</summary>
 For this analysis, we consider the amount of reviews by month as a value that indicates the number of people who visited the city that month.
-  With more than twice the amount of bookings number than february, march has the podium..
- <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/82bba008-eabc-4142-be3d-c6710d5985f3" alt="Busiest Month" width="1000">
+As we can see, the very high pitch is in March (but remember that the latest update for this dataset is March, so it doesn't take account all of 2024 for now. This chart will be updated by end of 2024).
+ <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/9e38f1b3-3453-485c-90e5-245e1020dd71" alt="Busiest Month" width="800">
  </details>
 
 
