@@ -83,6 +83,8 @@ As we can see, the very high pitch is in March (but remember that the latest upd
 
 4) Who are the five host with the highest number of listing?
 
+<details><summary>See the findings</summary>
+
 For this calculation, we need to consider also the host_id, otherwise hosts with the same name would be put together.
 The host with highest count of listing, as we can see, is "Italianway", which he appears for that reason in other several calculation.
 
@@ -94,7 +96,7 @@ The host with highest count of listing, as we can see, is "Italianway", which he
 | 16366171  | Cleanbnb House  | 107           |
 | 14743308  | Casa Da Suite   | 85            |
 
-
+</details>
 
 ### Visualization
 From this analysis, the data available allow us to gather some more interest finding, summarized in the following dashboard, which the interactive version can be found on [Tableau Public](https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview_17163982276050/Dashboard2). 
