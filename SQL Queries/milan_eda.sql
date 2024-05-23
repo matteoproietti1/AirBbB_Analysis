@@ -90,5 +90,10 @@ FROM milan
 GROUP BY DATE_FORMAT(last_review, '%Y-%m')
 ORDER BY month;
 
-
-
+-- 4) Hosts with most listing
+SELECT host_id as ID,
+host_name as "name",
+count(id) as listing_count
+FROM milan
+GROUP BY host_id, host_name
+ORDER BY 3 desc;
