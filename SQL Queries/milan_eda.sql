@@ -1,6 +1,9 @@
--- 1) Most common room type in each neighbourhood
-
-
+-- 1) Most common room type and average prices
+SELECT room_type, COUNT(*) AS count, 
+ROUND(AVG(price)) AS average_price
+FROM milan
+GROUP BY room_type
+ORDER BY count DESC;
 
 -- 2) Average prices by neighbourhood in Milan 
 SELECT neighbourhood,
