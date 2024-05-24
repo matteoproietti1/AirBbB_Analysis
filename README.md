@@ -28,10 +28,22 @@ During the cleaning and preparation phase, following tasks were performed:
 ## 3) Data Analysis
 ### Exploratory Data Analysis (EDA) - Questions and findings
 
-1) What is the most common room type in each neighbourhood?
+1) What is the most common room type?
 <details>
   <summary>See the findings</summary>
 The analysis  reveals that the most common room type in the majority of neighborhoods is "Entire home/apt." This room type consistently appears as the dominant listing across various areas. By evaluating the count of listings per room type within each neighborhood, we observe that it has a significantly higher number of listings compared to other room types such as "Private room" or "Shared room."
+Also, being an entire home, its average price is higher than others because it can hosts more guests.
+
+| Room Type        | Count | Average Price |
+|------------------|-------|---------------|
+| Entire home/apt  | 16485 | 177           |
+| Private room     | 2531  | 113           |
+| Shared room      | 151   | 99            |
+| Hotel room       | 21    | 112           |
+| ...              | ...   | ...           |
+
+
+  
 </details>
 
 2) What are the cheapest and most expensive neighbourhood in Milan? Is there a significative difference between the prices of the two most populated cities in Italy? Compare Milan and Rome.
@@ -46,7 +58,7 @@ Things change for the cheapest, where the average price is higher in Rome than M
 
 <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/2c168cf9-690e-40e3-9b1b-5174c80adfda" alt="CheapExp" width="600">
 
-Also the number of listing is very different: Milan has very few listing for the neighbourhood, both in the cheapest and most expensive. In fact, Rome is 1st in ranking for number of AirBnB italy, so that is not surprising (number of neighbourhood groups in Rome is also lower, so, for this cause, listing in each of those is higher).
+Also the number of listing is very different: Milan has very few listing for the neighbourhood, both in the cheapest and most expensive. In fact, Rome is 1st in ranking for number of AirBnB italy, so that is not surprising (number of neighbourhood groups in Rome is also lower and restricted in fewer zone of areas, so, for this cause, listing in each of those is higher).
 
 --*Milan*--
 
