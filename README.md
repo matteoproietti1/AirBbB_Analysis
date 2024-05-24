@@ -34,7 +34,7 @@ During the cleaning and preparation phase, following tasks were performed:
 The analysis  reveals that the most common room type in the majority of neighborhoods is "Entire home/apt." This room type consistently appears as the dominant listing across various areas. By evaluating the count of listings per room type within each neighborhood, we observe that it has a significantly higher number of listings compared to other room types such as "Private room" or "Shared room."
 </details>
 
-2) Is there a significative difference between the average prices of the two most populated cities in Italy? Compare Milan and Rome.
+2) What are the cheapest and most expensive neighbourhood in Milan? Is there a significative difference between the prices of the two most populated cities in Italy? Compare Milan and Rome.
 <details>
     <summary>See the findings</summary>
 
@@ -76,9 +76,11 @@ Also the number of listing is very different: Milan has very few listing for the
 3) What is the busiest month of the year to visit milan?
 <details>
   <summary>See the findings</summary>
-For this analysis, we consider the amount of reviews by month as a value that indicates the number of people who visited the city that month.
-As we can see, the very high pitch is in March (but remember that the latest update for this dataset is March, so it doesn't take account all of 2024 for now. This chart will be updated by end of 2024).
- <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/9e38f1b3-3453-485c-90e5-245e1020dd71" alt="Busiest Month" width="800">
+For this analysis, we consider the amount of reviews by month as a value that indicates the number of people who visited the city that month. We don't consider 2024 since it is still running.
+As we can see, the very high pitch of bookings is during september and october, but considering that reviews are published during the end of the staying, we can deduce that august and september are the busiest months of the year.
+  
+<img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/12a19d65-d4fb-4e65-a5ca-130e41670db1" alt="Busiest Month" width="800">
+
  </details>
 
 4) Who are the five host with the highest number of listing?
@@ -99,12 +101,13 @@ The host with highest count of listing, as we can see, is "Italianway", which he
 </details>
 
 ### Visualization
-From this analysis, the data available allow us to gather some more interest finding, summarized in the following dashboard, which the interactive version can be found on [Tableau Public](https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnBOverview_17163982276050/Dashboard2). 
+From this analysis, the data available allow us to gather some more interest finding, summarized in the following dashboard, which the interactive version can be found on [Tableau Public](https://public.tableau.com/app/profile/matteo.proietti8500/viz/MilanAirBnB-Overview/Dashboard2). 
+
 Given that Milan has over 80 neighborhoods, to avoid a confusing and hard-to-read displaying, certain analyses consider only the top five neighbourhoods by number of bookings.
 
 <details>
   <summary>View the Dashboard</summary>
-  <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/537ae465-dea5-462f-ac21-7a8cad271d9e" alt="Milan Visualization Overview" width="1000">
+  <img src="https://github.com/matteoproietti1/AirBnB_Analysis/assets/169601063/b8d20c94-ddaa-426e-a6f6-f0bf353e02d9" alt="Milan Visualization Overview" width="1000">
   <p>The Buenos Aires - Venezia neighborhood has the highest number of listings, with 1,475 in total. Andrea is the top host, owning 41 of these listings. The average price for an entire home in this neighborhood is 192 euros per night (25 euros more than the average price of a staying in Milan, which is 167 euro).
   
   </p>
